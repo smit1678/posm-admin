@@ -13,7 +13,7 @@ fi
 echo "==> $0: Backing up OMK data..."
 echo
 
-tar zcf $backups_dir/omk/${timestamp}.tar.gz -C /opt/data/omk forms/ submissions/
+tar zcf $backups_dir/omk/${timestamp}.tar.gz -C /opt/data/omk forms/ submissions/ archive/
 
 echo "==> $0: END."
 echo
